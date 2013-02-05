@@ -21,7 +21,7 @@
 						</div>
 						<div class="social-plugin">
 							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twitgreen.com" data-via="kunw" data-related="kunw" data-hashtags="twitgreen" data-dnt="true">Tweet</a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+							
 							<div class="fb-like" data-href="http://twitgreen.com" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false"></div>
 						</div>
 					</div>
@@ -36,13 +36,13 @@
 			</div>
 			<div class="row">
 				<div class="span9">	
-				
-					
-					<div class="head-story">
-						<h2>Semua Cerita</h2>
-						<p>lihat : <a href="single-lot.php"><button class="btn active  btn-success" type="button"><i class="icon-book"></i> semua</button></a>  <a href="single-lot-taxonomy-catatan.php"><button class="btn  btn-success" type="button"><i class="icon-edit"></i> Catatan</button></a>  <a href="single-lot-taxonomy-galeri.php"><button class="btn  btn-success" type="button"><i class="icon-picture"></i> Galeri</button></a></p>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#1" data-toggle="tab">Semua Cerita</a></li>
+							<li><a href="#2" data-toggle="tab">Catatan</a></li>
+							<li><a href="#2" data-toggle="tab">Galeri</a></li>
+						</ul>
 					</div>
-					
 					<?php include 'module/all-story.php'; ?>
 				</div>
 			</div>
@@ -50,7 +50,7 @@
 		
 		<div id="sidebar" class="span3">
 			<?php
-				//include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
+				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
 				include 'module/widget-lot-statistic.php';
 				include 'module/widget-lot-document.php';
 			?>			

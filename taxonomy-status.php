@@ -1,6 +1,5 @@
 <?php
 	include 'module/header2.php';
-	
 ?>
 	<div class="container">
 		<div class="row">

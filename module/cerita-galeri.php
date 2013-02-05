@@ -74,8 +74,3 @@
 									
 								</ul>	
 							</div>
-							
-							<!-- single galeri look like -->
-							<div class="single-galeri">
-								<?php include 'galeri.php'; ?>
-							</div>
