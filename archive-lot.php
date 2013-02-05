@@ -1,6 +1,6 @@
 <?php
 	include 'module/header2.php';
-	//include 'module/infographic-global.php';
+	// include 'module/infographic-global.php';
 ?>
 	<div class="container">
 		<h2>DAFTAR LOT TERBARU :</h2>

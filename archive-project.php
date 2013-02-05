@@ -3,13 +3,9 @@
 	//include 'module/infographic-global.php';
 ?>
 	<div class="container">
+		<h2>DAFTAR PROJECT :</h2>
 		<div class="row">
-			<div class="span12">
-			<h2>DAFTAR PROJECT :</h2>
-			</div>
-			
 			<div id="big-content" class="span9">
-				
 				<ul id="new-projects" class="thumbnails">
 					<?php
 						$i = 0;

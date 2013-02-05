@@ -1,6 +1,4 @@
-            <div class="span12"><h2>EDIT PROFILE</h2></div>
-<!--form profile user-->
-    
+
             <div class="span9">
 
                             <div class="">
