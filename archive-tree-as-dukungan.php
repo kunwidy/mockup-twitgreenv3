@@ -33,7 +33,7 @@
 							<li>2.300.000 pohon</li>
 							<li>976 hektar</li>
 							<li>500 Petani</li>
-							<li><a href="archive-lot-map-view.php">Lihat Peta</a></li>
+							<li><a href="single-lot-map-view.php">Lihat Peta</a></li>
 						</ul>
 					</div>
 					<!-- /stats content -->
