@@ -3,9 +3,7 @@
 ?>
 	<div class="container">
 		<h2>SUNTING PROFIL</h2>
-		<div class="row">
-			<?php include 'form/form-profile2.php' ?>
-		</div>
+		<?php include 'form/form-profile2.php' ?>
 	</div>
 <?php
 	include 'module/search-mobile.php';

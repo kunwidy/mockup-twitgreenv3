@@ -1,8 +1,8 @@
 <div id="" class="row">
 	<div id="" class="span3">
 		<ol class="acc-wizard-sidebar">
-			<li class="acc-wizard-todo"><a href="#cerita-isi">Isi Cerita</a></li>
-			<li class="acc-wizard-todo"><a href="#cerita-lampiran">Lampiran Cerita</a></li>
+			<li class="acc-wizard-todo"><a href="#cerita-isi" data-toggle="collapse" data-parent="#form-cerita" >Isi Cerita</a></li>
+			<li class="acc-wizard-todo"><a href="#cerita-lampiran" data-toggle="collapse" data-parent="#form-cerita" >Lampiran Cerita</a></li>
 		</ol>
 	</div>
 	<div id="" class="span9">
