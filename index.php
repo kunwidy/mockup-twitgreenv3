@@ -1,8 +1,18 @@
 <?php
 	include 'module/header2a.php';
 	include 'module/infographic-global.php';
-	include 'module/featured-project.php';
+	
 ?>
+	
+	<div class="container">
+		<div class="span12 center join-sponsor">
+			<img src="img/sponsor.png" alt="">
+			<h2>Mari begabung menjadi sponsor project penanaman TwitGreen</h2>
+			<p><button class="btn btn-large btn-primary" type="button">JADI SPONSOR</button></p>
+		</div>
+	</div>
+	
+	<?php include 'module/featured-project.php'; ?>
 
 	<div class="container">
 		
@@ -21,13 +31,6 @@
 		</div>
 	</div>
 	
-	<div class="container">
-		<div class="span12 center">
-			<img src="img/sponsor.png" alt="">
-			<h2>Mari begabung menjadi sponsor project penanaman TwitGreen</h2>
-			<p><button class="btn btn-large btn-primary" type="button">JADI SPONSOR</button></p>
-		</div>
-	</div>
 	
 	<div class="container">
 		<div id="middle-deep">
@@ -68,6 +71,5 @@
 	</div>
 
 <?php
-	include 'module/search-mobile.php';
 	include 'module/footer.php';
 ?>
