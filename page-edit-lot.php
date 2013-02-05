@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			 <div class="span12"><h2>FORM PENDAFTARAN LOT</h2>
-				<?php include 'form/form-lot.php'?>
+				<?php include 'form/form-lot.php' ?>
 			</div>
 		</div>
 	</div>

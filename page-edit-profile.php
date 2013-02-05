@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			
-			<?php include 'form/form-profile2.php'?>
+			<?php include 'form/form-profile2.php' ?>
 		</div>
 	</div>
 	

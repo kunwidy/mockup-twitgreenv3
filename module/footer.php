@@ -17,19 +17,18 @@
 	 <!-- /footer -->
 	
 	 <!-- Le javascript
-    ================================================== -->
+	================================================== -->
    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/less-1.3.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
-    <script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
 	<script type="text/javascript" src="js/jquery.bootstrap.wizard.js"></script>
 	
 	
 	<script>
 	$(document).ready(function() {
-	  	$('#rootwizard').bootstrapWizard({'tabClass': 'nav nav-tabs'});	
+		$('#rootwizard').bootstrapWizard({'tabClass': 'nav nav-tabs'});	
 		window.prettyPrint && prettyPrint()
 	});	
 	</script>
@@ -47,7 +46,7 @@
 	 $("#submit-sponsor").live("click",function(){
 			 $(".alert-message").show();
 			 $(".alert-message").alert();
-	                 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
+					 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
 			
 			return false;
 		});
@@ -56,7 +55,7 @@
 	 $("#submit-profile").live("click",function(){
 			 $(".alert-message").show();
 			 $(".alert-message").alert();
-	                 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
+					 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
 			
 			return false;
 		});
@@ -64,7 +63,7 @@
 	$("#submit-biodata").live("click",function(){
 			 $(".alert-message").show();
 			 $(".alert-message").alert();
-	                 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
+					 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
 			
 			return false;
 		});
@@ -79,26 +78,26 @@
 	
 	jQuery(document).ready(function($) {
  
-        $('#myCarousel').carousel({
-                interval: 5000
-        });
+		$('#myCarousel').carousel({
+				interval: 5000
+		});
  
-        $('#carousel-text').html($('#slide-content-0').html());
+		$('#carousel-text').html($('#slide-content-0').html());
  
-        //Handles the carousel thumbnails
-        $('[id^=carousel-selector-]').click( function(){
-                var id_selector = $(this).attr("id");
-                var id = id_selector.substr(id_selector.length -1);
-                var id = parseInt(id);
-                $('#myCarousel').carousel(id);
-        });
+		//Handles the carousel thumbnails
+		$('[id^=carousel-selector-]').click( function(){
+				var id_selector = $(this).attr("id");
+				var id = id_selector.substr(id_selector.length -1);
+				var id = parseInt(id);
+				$('#myCarousel').carousel(id);
+		});
  
  
-        // When the carousel slides, auto update the text
-        $('#myCarousel').on('slid', function (e) {
-                var id = $('.item.active').data('slide-number');
-                $('#carousel-text').html($('#slide-content-'+id).html());
-        });
+		// When the carousel slides, auto update the text
+		$('#myCarousel').on('slid', function (e) {
+				var id = $('.item.active').data('slide-number');
+				$('#carousel-text').html($('#slide-content-'+id).html());
+		});
  
  
 });
