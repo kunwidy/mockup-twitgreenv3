@@ -5,7 +5,17 @@
 		<div class="row">
 			<div class="span12">
 				<h2>DAFTAR USER</h2>
-				<button class="btn btn-success btn-small" type="button"> Semua</button> <button class="btn btn-success btn-small" type="button"> Investor</button> <button class="btn btn-success btn-small" type="button"> Relawan</button> <button class="btn btn-success btn-small" type="button"> Petani</button> <button class="btn btn-success btn-small" type="button"> Pemilik lahan</button>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#1">Semua</a></li>
+						<li><a href="#2">Investor</a></li>
+						<li><a href="#2">Relawan</a></li>
+						<li><a href="#2">Petani</a></li>
+						<li><a href="#2">Pemilik Lahan</a></li>
+					</ul>
+				</div>
+
+
 				
 				<ul id="list-user" class="thumbnails">
 					<?php

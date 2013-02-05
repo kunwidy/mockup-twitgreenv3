@@ -3,14 +3,13 @@
 	//include 'module/infographic-global.php';
 ?>
 	<div class="container">
+		<h2>DAFTAR LOT TERBARU :</h2>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#1">Semua</a></li>
+			<li><a href="#2">Lot Terbuka</a></li>
+		</ul>
 		<div class="row">
-			<div class="span12">
-			<h2>DAFTAR LOT TERBARU :</h2>
-			Lihat <button class="btn btn-success btn-small" type="button"> Semua</button> <button class="btn btn-success btn-small" type="button"> Lot terbuka</button>
-			</div>
-			
 			<div id="big-content" class="span9">
-				
 				<ul id="new-projects" class="thumbnails">
 					<?php
 						$i = 0;
@@ -20,7 +19,6 @@
 						}
 					?>
 				</ul>
-				
 				<ul id="new-projects" class="thumbnails">
 					<?php
 						$i = 0;
