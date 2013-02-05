@@ -22,6 +22,14 @@
 	</div>
 	
 	<div class="container">
+		<div class="span12 center">
+			<img src="img/sponsor.png" alt="">
+			<h2>Mari begabung menjadi sponsor project penanaman TwitGreen</h2>
+			<p><button class="btn btn-large btn-primary" type="button">JADI SPONSOR</button></p>
+		</div>
+	</div>
+	
+	<div class="container">
 		<div id="middle-deep">
 			<div class="row">
 				<!-- social media -->
