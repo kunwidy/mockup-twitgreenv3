@@ -53,8 +53,8 @@
               <li><a href="archive-lot.php" class="topnav"><img src="img/alot.png"> Lot</a></li>
             </ul>
 			
-						<div class="btn-group inside pull-right">
-							
+			
+						<div class="btn-group inside pull-right hidden-phone hidden-tablet">
 							<button class="btn dropdown-toggle user-in" data-toggle="dropdown">
 								<img class="top-user-profile" src="upload/relawan.jpg" alt="">
 							</button>
@@ -67,7 +67,7 @@
 							</ul>
 						</div>
 						
-			<div class="input-append">
+			<div class="input-append hidden-phone hidden-tablet">
 				<form class="navbar-form pull-right">
               
 					<input class="span2" id="appendedDropdownButton" type="text">
@@ -88,6 +88,27 @@
 				
 				</form>
 			</div>
+						<!--only view in phone -->
+						<div class="navbar hidden-desktop visible-phone">
+							<ul class="nav nav-pills">
+								<li>
+								 <div class="input-append">
+									<form class="navbar-form pull-right">
+										<input class="span2" id="appendedDropdownButton" type="text">
+											<div class="btn-group">
+												<button class="btn dropdown-toggle btn-success" data-toggle="dropdown" tabindex="-1">Cari</button>
+											</div>
+										</input>
+									</form>
+								 </div>
+								</li>
+								<li><a href="#"><i class="icon-cog"></i> Preferences</a></li>
+								<li><a href="single-user.php"><i class="icon-envelope"></i> Akunku <span class="badge badge-info">4</span></a></li>
+								<li class="divider"></li>
+								<li><a href="#"><i class="icon-off"></i> Logout</a></li>
+							</ul>
+						</div>
+						<!--only view in phone -->
 			
 						
 			
