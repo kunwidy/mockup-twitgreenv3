@@ -296,6 +296,34 @@
 					</div>
 				</div>
 			</fieldset>
+			<fieldset class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#form-lot" href="#data-status">
+						Status Lot
+					</a>
+				</div>
+				<div id="data-status" class="accordion-body collapse">
+					<div class="accordion-inner">
+						<div class="control-group">
+							<label class="control-label" for="inputjudul">Status Lot</label>
+							<div class="controls">
+								<select>
+									<option>Hapus</option>
+									<option>Draft</option>
+									<option>Offering</option>
+									<option>Plan</option>
+									<option>Ready to Plant</option>
+								</select>
+							</div>
+						</div>
+						<div class="control-group">
+							<div class="controls">
+								<button id="submit-profile" type="submit" class="btn btn-info">Simpan</button> <button type="reset" class="btn">batal</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</fieldset>
 		</form>
 	</div>
 </div>
