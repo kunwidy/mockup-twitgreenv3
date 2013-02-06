@@ -2,10 +2,8 @@
 	include 'module/header2.php';
 ?>
 	<div class="container">
-		<div class="row">
-			
-			<?php include 'form/form-relawan-registration.php'?>
-		</div>
+		<h2>Pendaftaran Relawan</h2>
+		<?php include 'form/form-relawan-registration.php' ?>
 	</div>
 	
 <?php
