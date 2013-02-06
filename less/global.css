@@ -1,5 +1,18 @@
 //GLOBAL STYLE
 
+
+
+//CONTENT STYLE
+
+#big-content{
+    
+    }
+
+.join-sponsor{
+    margin-top: @margin6;
+    }
+
+//SIDEBAR STYLE
 #sidebar{
     background: #fff;
     padding-top: 10px;
@@ -7,9 +20,9 @@
 	margin-bottom: 20px;
     margin-top: 10px;
 	
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 	
     }
     

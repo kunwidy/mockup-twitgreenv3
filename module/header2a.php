@@ -46,12 +46,12 @@
           </a>
           
 				<div id="sobat-login" class="span5">
-					<p><a id="sobatbumi-connect" href="#"><img src="img/sobatbumi-logo.png" alt=""> login dengan sobatbumi</a></p>
+					<p ><a id="sobatbumi-connect" href="#"><img src="img/sobatbumi-logo.png" alt=""> login dengan sobatbumi</a></p>
 				</div>
 	
           <div class="nav-collapse collapse inverse">
 						
-			<div class="input-append">
+			<div class="input-append hidden-phone hidden-tablet">
 				<form class="navbar-form pull-right">
               
 					<input class="span2" id="appendedDropdownButton" type="text">
@@ -72,8 +72,24 @@
 				
 				</form>
 			</div>
+			
+						<!--only view in phone -->
+						<div class="navbar hidden-desktop visible-phone">
+							
+									<form class="navbar-form pull-right">
+										<input class="span2" id="appendedDropdownButton" type="text">
+											<div class="btn-group">
+												<button class="btn dropdown-toggle btn-success" data-toggle="dropdown" tabindex="-1">Cari</button>
+											</div>
+										</input>
+									</form>
+								
+						</div>
+						<!--only view in phone -->
 
           </div><!--/.nav-collapse -->
+		  
+
 		  
         </div>
       </div>
