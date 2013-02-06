@@ -1,19 +1,13 @@
 //PROJECT STYLE
 
 .featured-project{
-    background: #fff;
-    margin-top: 20px;
-    margin-bottom: 20px;
-	padding: 10px 0;
+    background: @white;
+    margin-top: @margin4;
+    margin-bottom: @margin4;
+	padding: @padding2 0;
 	
-	-webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-		
--webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.45);
--moz-box-shadow:    0px 1px 3px rgba(50, 50, 50, 0.45);
-box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.45);
-
+    .rounded-corners (@radius: 5px);
+    .shadow1;
 }
 
 #img-featured{

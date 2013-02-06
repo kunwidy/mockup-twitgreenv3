@@ -140,6 +140,7 @@ box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
         }
      }
 }
+
 #mini-logo{
     margin-top: @margin1;
     }
@@ -196,11 +197,7 @@ margin-bottom: 0;
     
 ul.nav{
     li{
-        transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
-    -moz-transition: all 300ms ease-in-out;
-    -webkit-transition: all 300ms ease-in-out;
+       .transition(all, 0.5s, ease-in);
         a.topnav{
          color: green;
         font-weight: bold;
@@ -225,9 +222,8 @@ ul.nav{
 #stats-box{
     background: @white;
     padding:0;
-	-webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.45);
-    -moz-box-shadow:    0px 1px 3px rgba(50, 50, 50, 0.45);
-    box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.45);
+	
+    .shadow1;
          span#up{
              position: @abs;
              margin-top: -18px;
@@ -246,7 +242,7 @@ ul.nav{
     }
 #block-button-mobile{
         margin-top: -35px;
-        margin-bottom: 5px;
+        margin-bottom: @margin1;
     }
 ul#statistik{
     list-style: none;
@@ -296,54 +292,54 @@ ul#statistik li{
 	margin-top: -10px;
 }
 ul#statistik{
-	margin-bottom: 10px;
+	margin-bottom: @margin2;
 }
 ul#statistik li.pohon{
 	background: url(../img/pohon.png) no-repeat;
 }
 ul#statistik li.pohon p{
-	padding-left: 15px;
-	margin-bottom: 5px;
+	padding-left: @padding3;
+	margin-bottom: @margin2;
 }
 ul#statistik li.lahan{
 	background: url(../img/lahan.png) no-repeat;
 }
 ul#statistik li.lahan p{
-	padding-left: 15px;
-	margin-bottom: 5px;
+    padding-left: @padding3;
+    margin-bottom: @margin2;
 }
 ul#statistik li.petani{
 	background: url(../img/petani.png) no-repeat;
 }
 ul#statistik li.petani p{
-	padding-left: 15px;
-	margin-bottom: 5px;
+    padding-left: @padding3;
+    margin-bottom: @margin2;
 }
 ul#statistik li.lot{
 	background: url(../img/lot.png) no-repeat;
 }
 ul#statistik li.lot p{
-	padding-left: 15px;
-	margin-bottom: 5px;
+    padding-left: @padding3;
+    margin-bottom: @margin2;
 }
 
 p#lot-name{
-	background: #649525;
+	background: @hover;
 	margin-bottom: 0;
 	padding: 3px;
 	min-height: 30px;
 }
 p#lot-name:hover{
-	background: #8BBF36;
+	background:@link;
 }
 p#lot-name a{
-	color: #fff;
+	color: @white;
 }
 p#lot-name a:hover{
 }
 
 #middle-deep{
-    border-top: 1px solid #A0E020;
+   
 	padding-top: @padding4;
     padding-bottom: @padding4;
     margin-top: @margin4;
@@ -358,9 +354,9 @@ p#lot-name a:hover{
 }
 
 #low-title{
-    color: #81B72E;
+    color: @color2;
 	padding-left: @padding2;
-	text-shadow: 0px 1px 1px #ddd;
+	text-shadow: @ts3;
 	font-size: @big;
 }
 #thebox{
@@ -378,18 +374,13 @@ p#lot-name a:hover{
         }
     }
 .featured-project{
-    background: #fff;
-    margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 10px 0;
+     background: @white;
+    margin-top: @margin4;
+    margin-bottom: @margin4;
+    padding: @padding2 0;
 	
-	-webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-		
--webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.45);
--moz-box-shadow:    0px 1px 3px rgba(50, 50, 50, 0.45);
-box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.45);
+    .rounded-corners (@radius: 5px);
+    .shadow1;
 
 }
 #big-shadow{
@@ -420,16 +411,21 @@ ul#new-projects{
     
 }
 ul#new-projects li{
-	background: ;
-	padding: 10px 0;
+        background: #E5F5D3;
+     -moz-box-shadow:inset -7px -8px 48px #DEEDCE;
+-webkit-box-shadow:inset -7px -8px 48px #DEEDCE;
+box-shadow:inset -7px -8px 48px #DEEDCE;
+
+	padding: 0;
     div.banner-box{
     padding: 5px;
 	min-height: 160px;
 	background: @white;
-    
+   
     }
     span#relawan-name{
     padding-left: 10px;
+    background: @white;
     }
     div.relawan-box img{
     height: 50px;
@@ -554,6 +550,18 @@ ul.new-transaction{
 
 .join-sponsor{
     margin-top: @margin6;
+    img:hover{
+        transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+        }
+        
     }
 
 

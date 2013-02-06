@@ -12,6 +12,46 @@
     margin-top: @margin6;
     }
 
+//INDEX PAGE
+.join-sponsor{
+    margin-top: @margin6;
+    
+    img:hover{
+        transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+        }
+        
+    }
+
+#middle-deep{
+    padding-top: @padding4;
+    padding-bottom: @padding4;
+    margin-top: @margin4;
+}
+
+.twit{
+    margin-top: @margin4;
+}
+
+#how-twitgreen{
+    margin-top:-@margin2;	
+}
+
+#low-title{
+    color: @color2;
+    padding-left: @padding2;
+	text-shadow: @ts3;
+	font-size: @big;
+}
+
+
 //SIDEBAR STYLE
 #sidebar{
     background: #fff;
