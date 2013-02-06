@@ -72,9 +72,19 @@
 							</div>
 						</div>
 						<div class="control-group">
+							<div class="controls">
+								<a href="#">Daftarkan Project Baru</a>
+							</div>
+						</div>
+						<div class="control-group">
 							<label class="control-label" for="inputjudul">Block</label>
 							<div class="controls">
 								<input type="text" id="inputname" class="span6" placeholder=""> 
+							</div>
+						</div>
+						<div class="control-group">
+							<div class="controls">
+								<a href="#">Daftarkan Block Baru</a>
 							</div>
 						</div>
 						<div class="control-group">
@@ -94,12 +104,12 @@
 								</select>
 							</div>
 						</div>
-						<div class="control-group">
+						<!-- <div class="control-group">
 							<label class="control-label" for="inputjudul">Persentase Campuran</label>
 							<div class="controls">
 								<input type="text" id="inputname" placeholder="'Jabon 50% - Sengon 50%'"> 
 							</div>
-						</div>
+						</div> -->
 						<div class="control-group">
 							<label class="control-label" for="inputjudul">Propinsi</label>
 							<div class="controls">
@@ -138,6 +148,15 @@
 									<option value="cat">AB-60/40</option>
 								</select>
 							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="ho-ktp">Tanggal Penanaman</label>
+							<div class="controls">
+								<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+									<input class="span2" size="16" type="text" value="12-02-2012">
+									<span class="add-on"><i class="icon-th"></i></span>
+								</div>
+							</div> 
 						</div>
 						<div class="control-group">
 							<label class="control-label" for="inputjudul">Rencana Penanaman</label>
@@ -237,6 +256,12 @@
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="ho-ktp">Koordinat Lot Verifikasi</label>
+							<div class="controls">
+								<textarea name="message" id="message" class="input-xlarge span5" rows="6"></textarea>
+							</div> 
 						</div>
 						<div class="control-group">
 							<label class="control-label" for="inputjudul">Realisasi Penanaman</label>
