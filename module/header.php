@@ -9,17 +9,17 @@
 		<meta name="author" content="">
 
 		<!-- Le styles -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/datepicker.css">
-		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
 	
 		<!-- <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
 		<!-- Fav and touch icons -->
@@ -32,7 +32,7 @@
 
 <body>
 
-		<div id="fb-root"></div>
+	<div id="fb-root"></div>
 
 	<!-- header -->
 	<div id="header-out">
