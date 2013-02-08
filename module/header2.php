@@ -91,6 +91,11 @@
 						<!--only view in phone -->
 						<div class="navbar hidden-desktop visible-phone">
 							<ul class="nav nav-pills">
+								
+								<li><a href="#"><i class="icon-cog"></i> Preferences</a></li>
+								<li><a href="single-user.php"><i class="icon-envelope"></i> Akunku <span class="badge badge-info">4</span></a></li>
+								<li class="divider"></li>
+								<li><a href="#"><i class="icon-off"></i> Logout</a></li>
 								<li>
 								 <div class="input-append">
 									<form class="navbar-form pull-right">
@@ -102,10 +107,6 @@
 									</form>
 								 </div>
 								</li>
-								<li><a href="#"><i class="icon-cog"></i> Preferences</a></li>
-								<li><a href="single-user.php"><i class="icon-envelope"></i> Akunku <span class="badge badge-info">4</span></a></li>
-								<li class="divider"></li>
-								<li><a href="#"><i class="icon-off"></i> Logout</a></li>
 							</ul>
 						</div>
 						<!--only view in phone -->
