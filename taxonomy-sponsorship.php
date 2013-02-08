@@ -10,6 +10,9 @@
 							<h1 class="large center">
 								<a href="#"><img src="upload/sponsorship.jpg" alt=""/></a>
 							</h1>
+							<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.
+							</p>
 						</div>
 						<hr/>
 						<div class="row">
