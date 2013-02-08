@@ -1,28 +1,33 @@
 //WIDGET RELAWAN
 
 #relawan1{
-        margin-bottom: 20px;
+        margin-bottom: @margin2;
         ul#relawan{
         margin: 0 0 20px 0;
-        padding: 0 0 0 2px;
+        padding: 0 0 0 @padding1+2;
         list-style: none;
-         li{
-    float: left;
-    margin: 4px 2px;
-    font-size: @small;
-    text-align: @center;
-    background: #DDEFB7;
-     img{
-    height: 45px;
-	width: 45px;
-	overflow: hidden;
-	border: 1px solid #ddd;
-    img:hover{
-    border: 1px solid #A0E020;
+         li {
+            float: left;
+            margin: 4px 2px;
+            font-size: @small;
+            text-align: @center;
+            background:@light;
+            a{
+                img{
+                .norm;
+                overflow: hidden;
+	            border: @br3;
+                    }
+                 img:hover{
+                     border: @br2;
+                     } 
+                span{
+                    padding:0;
                     }
                 }
-            }
-        }
+            
+         }
+       }
     }
 
 ul#relawan2{
@@ -38,8 +43,8 @@ ul#relawan2{
                     }
                 }
              .relawan-name{
-                 padding-left: 40px;
-                 padding-top: 4px;
+                 padding-left: @padding5+10;
+                 padding-top: @padding1;
                  }
             }
     }
@@ -51,4 +56,39 @@ ul#relawan2{
     }
 ul#relawan2{
     
+    }
+
+.sponsor-banner{
+    padding: 5px;
+        img {
+           border:@br5;
+        }
+    }
+.sponsor-banner img:hover{
+    border: @br;
+    }
+    ul#data-lot{
+    margin: 0;
+	padding: 0 0 0 2px;
+	display: block;
+	list-style: none;
+    li{
+        border-bottom: @br2;
+	    padding: @padding1;
+        }
+}
+
+span.img-personal{
+	margin-left: 0;
+	position: @abs;
+}
+span.img-personal img{
+	.small;
+}
+span.text-personal, span.text-personal a{
+	padding-left: @padding5+5;
+}
+
+#biodata{
+    background: @white;
     }
