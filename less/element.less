@@ -1,4 +1,4 @@
-//element
+//ELEMENT
 
 //ROUNDED
 .rounded-corners (@radius: 5px) {
@@ -32,7 +32,6 @@
     transition: @prop @time @ease; 
 } 
 
- 
 //SHADOW
 
 .shadow1{
@@ -40,21 +39,45 @@
     -moz-box-shadow:    0px 1px 3px rgba(50, 50, 50, 0.45);
     box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.45);
     }
+.shadow2{
+    -webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 3px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
+    }
     
 //BORDER
+@br:  1px solid #B7EF99;
+@br0:  1px solid #000;
 @br1:  1px solid #B7EF99;
 @br2: 1px solid #A0E020;
 @br3: 1px solid #fff;
+@br4: 1px dotted #649525;
+@br5: 1px dotted #ddd;
+
+
 //IMAGE
 
 .small{
         height: 35px;
         width: 35px;
     }
+.tinis{
+        height: 20px;
+        width: 20px;
+    }
+.norm{
+        height: 45px;
+        width: 45px;
+    }   
 .default{
-        height:50px;
+        height: 50px;
         width: 50px;
     }
+.logotyp{
+    height: 30px;
+    width: 125px;
+    }
+@height1: 30px;
 
 //POSISITION
 @rel: relative;
