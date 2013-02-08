@@ -1,10 +1,8 @@
-//style is start here
-
+//style is start here
 
 @import "element.less";
 @import "color.less";
 @import "typography.less";
-
 
 //GLOBAL-------------------------------------------------//
 
@@ -28,55 +26,52 @@ body{
 .container{ 
        
     }
+    
 p.tiny{
     font-size: @tiny;
     }
+    
 p.des{
-    padding: 5px;
+    padding: @padding1;
     }
+
 //TOP-------------------------------------------------//
 #header-out{
    
     }
 #logotype{
     background: url(../img/twitgreen1.png) no-repeat;
-    height: 30px;
-    width: 125px;
+    .logotyp;
     }
 #logotype:hover{
         background: url(../img/twitgreen2.png) no-repeat;
         }
 .user-in{
-    margin-left: 10px;
+    margin-left: @padding2;
     }
 .inside{
-    margin-left: 20px;
+    margin-left: @margin4;
     }
 img.top-user-profile{
-    height: 20px;
-    width: 20px;
+    .tinis;
     }
 #top{
 
-margin-top: 20px;
-margin-bottom: 30px;
+    margin-top: @margin4;
+    margin-bottom: @margin6;
 
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
+    .rounded-corners (@radius: 5px);
 
-background: rgb(191,210,85); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,210,85,1)), color-stop(50%,rgba(142,185,42,1)), color-stop(51%,rgba(114,170,0,1)), color-stop(100%,rgba(158,203,45,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
-
--webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
--moz-box-shadow:    0px 1px 3px rgba(50, 50, 50, 0.75);
-box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
+    background: rgb(191,210,85); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,210,85,1)), color-stop(50%,rgba(142,185,42,1)), color-stop(51%,rgba(114,170,0,1)), color-stop(100%,rgba(158,203,45,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+    
+    .shadow2;
 
 }
 
@@ -93,9 +88,8 @@ box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
     background: linear-gradient(to bottom,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
 
-    -webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px 1px 3px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
+   .shadow2;
+   
     }
     
 #logo{
@@ -113,7 +107,7 @@ box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
     }
     
 #site-title{
-    padding-left: @padding5;
+    padding-left: @padding6+10;
     h1{
      margin-top:@margin4;
     line-height: @short;
@@ -131,7 +125,7 @@ box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
     line-height: @short;
     font-size: @title;
     text-shadow: @ts2;
-    margin-top: 10px;
+    margin-top: @margin2;
     margin-bottom: 0;
     a{
         padding: 0 @padding2 0 0;
@@ -146,14 +140,16 @@ box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
     }
     
 #sobat-login{
+    margin: 0;
+    padding: 0;
     p{
+    margin-left: -7px;
     margin-top: @margin-min;
     padding: @padding1+2px;
     margin-bottom: @margin0;
     
     a#sobatbumi-connect{
         padding: 7px 10px 8px 10px;
-        margin-left: @margin1;
         border: @br3;
         color: @color1;
         text-shadow: @ts1;
@@ -179,7 +175,7 @@ box-shadow:         0px 1px 3px rgba(50, 50, 50, 0.75);
 }
 
 #has-login {
-padding: 7px;
+padding: @padding1+2;
 margin-bottom: 0;
 }
 
@@ -196,33 +192,31 @@ margin-bottom: 0;
     }
     
 ul.nav{
+    
     li{
        .transition(all, 0.5s, ease-in);
         a.topnav{
-         color: green;
-        font-weight: bold;
+         color:@color3;
+        font-weight: @bold;
             img{
                 margin-top: -5px;
-                margin-right: 5px;
+                margin-right: @margin1;
                 }
             } 
         }
+        
     li:hover{
-       background: #A0E020;
-        -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
+       background: @bg2;
+       .rounded-corners3 (@radius: 30px);
+       
         }
     }
-   
 
 //MIDDLE---------------------------------------------//
 #stats-box{
     background: @white;
     padding:0;
-	
+    
     .shadow1;
          span#up{
              position: @abs;
@@ -246,7 +240,7 @@ ul.nav{
     }
 ul#statistik{
     list-style: none;
-	padding: 0 0 0 5px;
+    padding: 0 0 0 5px;
 	margin: 0;
 }
 ul#statistik li{
@@ -327,7 +321,7 @@ p#lot-name{
 	background: @hover;
 	margin-bottom: 0;
 	padding: 3px;
-	min-height: 30px;
+	min-height: @height1;
 }
 p#lot-name:hover{
 	background:@link;
@@ -339,7 +333,7 @@ p#lot-name a:hover{
 }
 
 #middle-deep{
-   
+   border-top: @br2;
 	padding-top: @padding4;
     padding-bottom: @padding4;
     margin-top: @margin4;
@@ -365,9 +359,7 @@ p#lot-name a:hover{
 	margin-bottom:  @margin4;
 	padding: @padding2 0;
 	
-	-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    .rounded-corners (@radius: 5px);
 		
     .shadow1{
         
@@ -393,11 +385,11 @@ p#lot-name a:hover{
 	padding-top: @margin2;
 }
 #text-featured{
-	padding: 0 10px;
+	padding: 0 @padding2;
 }
 
 .donate{
-	margin-right: 10px;
+	margin-right: @margin2;
 	
 }
 .btn-inset{
@@ -405,52 +397,54 @@ p#lot-name a:hover{
 }
 .new-project{
     padding-bottom: @margin4;
-    margin-bottom: 20px;
+    margin-bottom: @margin4;
     }
+    
 ul#new-projects{
     
-}
-ul#new-projects li{
-        background: #E5F5D3;
-     -moz-box-shadow:inset -7px -8px 48px #DEEDCE;
--webkit-box-shadow:inset -7px -8px 48px #DEEDCE;
-box-shadow:inset -7px -8px 48px #DEEDCE;
+    li{
 
-	padding: 0;
+    padding: 0;
     div.banner-box{
-    padding: 5px;
+    padding: @padding1;
 	min-height: 160px;
 	background: @white;
    
     }
     span#relawan-name{
-    padding-left: 10px;
+    padding-left: @padding2;
     background: @white;
     }
-    div.relawan-box img{
-    height: 50px;
-	width: 50px;
-	position: relative;
-	margin-top: -30px;
-	margin-left: 15px;
-	z-index: 100;
-	border: 2px solid #649525;
-     
+    div.relawan-box{
+        background: @white;
+        padding-bottom: @padding1+2;
+        img{
+         .default;
+    	position: @rel;
+    	margin-top: -30px;
+    	margin-left: @margin3;
+    	z-index: 100;
+    	border: @br1;
+         }
     }
     div.cerita{
-    border-top: 1px dotted #649525;
+    border-top: @br4;
     background: @white;
     font-size: @small;
     min-height: 40px;
     overflow: hidden;
+        }
+
+    }
 }
-}
+
+    
 
 ul#archive-story{
     margin: 0;
     list-style: none;
     li{
-        border-bottom: 1px solid #ddd;
+        border-bottom: @br2;
         padding-bottom: @margin2;
         margin-bottom: @margin2;
         div.media{
@@ -492,13 +486,13 @@ ul#archive-story{
     padding: 0;
     margin:0;
    background: rgb(255,255,255); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
 
    
    
@@ -514,17 +508,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     }
 
 .social-plugin{
-    margin: 0 10px;
-	background: #CAD297;
+    margin: 0 @margin2;
+	background: @bg6;
 	height: 30px;
-	margin-bottom: 10px;
-	text-align: center;
-	-webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
+	margin-bottom: @margin6;
+	text-align: @center;
+	
+    .rounded-corners (@radius: 3px)
 }
 .twitter-share-button{
-	padding-top: 5px;
+	padding-top: @padding1;
 }
 .fb-like{
 	top: -5px;
@@ -534,18 +527,18 @@ ul.new-transaction{
         margin: 0;
         list-style: none;
         li{
-            border-bottom: 1px solid #fff;
+            border-bottom: @br3;
             }
         li:hover{
-            background: #fff;
+            background: @white;
             }
     }
 
 //FORM
 #profil-foto{
-    background: #CDDF9B;
-    text-align: center;
-    padding: 10px 0;
+    background: @bg6;
+    text-align: @center;
+    padding: @padding2 0;
     }
 
 .join-sponsor{
@@ -567,60 +560,63 @@ ul.new-transaction{
 
 //SIDE---------------------------------------------//
 #sidebar{
-    background: #fff;
-	padding-top: 10px;
-    padding-bottom: 10px;
-	margin-bottom: 20px;
-    margin-top: 10px;
+    background: @white;
+	padding-top: @padding2;
+    padding-bottom: @padding2;
+	margin-bottom: @margin4;
+    margin-top: @margin2;
 	
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
+    .rounded-corners (@radius: 5px)
 	
 }
 .side-content{
-    margin-bottom: 20px;
+    margin-bottom: @margin4;
     }
     
 h4#sidebar-title{
     margin: 0 0 10px 0;
-	text-shadow: -1px 1px 0 #ddd;
-	text-align: center;
+	text-shadow: @ts2;
+	text-align: @center;
     
-background: rgb(157,213,58); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(157,213,58,1)), color-stop(50%,rgba(161,213,79,1)), color-stop(51%,rgba(128,194,23,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+    background: rgb(157,213,58); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(157,213,58,1)), color-stop(50%,rgba(161,213,79,1)), color-stop(51%,rgba(128,194,23,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
 	
 }
 
 #relawan1{
-        margin-bottom: 20px;
+        margin-bottom: @margin2;
         ul#relawan{
         margin: 0 0 20px 0;
-        padding: 0 0 0 2px;
+        padding: 0 0 0 @padding1+2;
         list-style: none;
-         li{
-    float: left;
-	margin: 4px 2px;
-    font-size: @small;
-    text-align: @center;
-    background: #DDEFB7;
-     img{
-    height: 45px;
-	width: 45px;
-	overflow: hidden;
-	border: 1px solid #ddd;
-    img:hover{
-    border: 1px solid #A0E020;
-    }
-    }
-    }
-    }
+         li {
+            float: left;
+        	margin: 4px 2px;
+            font-size: @small;
+            text-align: @center;
+            background:@light;
+            a{
+                img{
+                .norm;
+                overflow: hidden;
+	            border: @br3;
+                    }
+                 img:hover{
+                     border: @br2;
+                     } 
+                span{
+                    padding:0;
+                    }
+                }
+            
+         }
+       }
     }
 
 ul#relawan2{
@@ -636,8 +632,8 @@ ul#relawan2{
                     }
                 }
              .relawan-name{
-                 padding-left: 40px;
-                 padding-top: 4px;
+                 padding-left: @padding5+10;
+                 padding-top: @padding1;
                  }
             }
     }
@@ -654,7 +650,7 @@ ul#relawan2{
 .sponsor-banner{
     padding: 5px;
         img {
-           border: 1px solid #ddd;
+           border:@br5;
         }
     }
 .sponsor-banner img:hover{
@@ -665,25 +661,25 @@ ul#relawan2{
 	padding: 0 0 0 2px;
 	display: block;
 	list-style: none;
+    li{
+        border-bottom: @br2;
+	    padding: @padding1;
+        }
 }
-ul#data-lot li{
-	border-bottom: 1px solid #B7EF99;
-	padding: 5px 0;
-}
+
 span.img-personal{
 	margin-left: 0;
-	position: absolute;
+	position: @abs;
 }
 span.img-personal img{
-	height: 38px;
-	width: 38px;
+	.small;
 }
 span.text-personal, span.text-personal a{
-	padding-left: 45px;
+	padding-left: @padding5+5;
 }
 
 #biodata{
-    background: #ddd;
+    background: @white;
     }
     
 ul#list-user{
@@ -694,31 +690,32 @@ ul#list-user{
         div.user-pics{
             img{
                 margin-left: 1px;
-                height: 45px;
-                width: 45px;
-                position: absolute;
-                a{border: 1px solid #ddd;
+               .norm;
+                position: @abs;
+                a{border: @br5;
                     
                     }
                 }
             }
             div.user-name{
                 a{color: @bg2;
-                    font-weight: bold;
+                    font-weight: @bold;
                 }
-                a:hover{color: #fff;}
+                a:hover{color: @white;}
                 padding: 10px 5px 10px 50px;
                 }
         }
         li:hover{
-            background: #407409;
-            color: #fff;
+            background: @bg3;
+            color: @white;
             }
     }
     
 //BOTTOM-----------------------------------------//
 #footer{
     border-top: @br;
-	padding: 10px 0;
+	padding: @padding2 0;
 	margin-bottom: @margin4;
 }
+
+   
