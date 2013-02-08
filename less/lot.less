@@ -1,60 +1,76 @@
-//LOT STYLE include archive and single
+p#lot-name{
+    background: @hover;
+	margin-bottom: 0;
+	padding: 3px;
+	min-height: @height1;
+}
+p#lot-name:hover{
+	background:@link;
+}
+p#lot-name a{
+	color: @white;
+}
+p#lot-name a:hover{
+}
 
+
+.new-project{
+    padding-bottom: @margin4;
+    margin-bottom: @margin4;
+    }
+    
 ul#new-projects{
     
     li{
-    background: ;
-	padding: 10px 0;
-    
+
+    padding: 0;
     div.banner-box{
-    padding: 5px;
-	min-height: 160px;
+    padding: @padding1;
+    min-height: 160px;
 	background: @white;
-        p#lot-name{
-             background: #649525;
-            margin-bottom: 0;
-	        padding: 3px;
-	        min-height: 30px;
-        }
-        p#lot-name:hover{
-	        background: #8BBF36;
-        }
-        p#lot-name a{
-	        color: #fff;
-        }
-        p#lot-name a:hover{
-        }
+   
     }
     span#relawan-name{
-    padding-left: 10px;
+    padding-left: @padding2;
+    background: @white;
     }
-    div.relawan-box img{
-    height: 50px;
-	width: 50px;
-	position: relative;
-	margin-top: -30px;
-	margin-left: 15px;
-	z-index: 100;
-	border: 2px solid #649525;
-     
+    div.relawan-box{
+        background: @white;
+        padding-bottom: @padding1+2;
+        img{
+         .default;
+    	position: @rel;
+    	margin-top: -30px;
+    	margin-left: @margin3;
+    	z-index: 100;
+    	border: @br1;
+         }
     }
     div.cerita{
-    border-top: 1px dotted #649525;
+    border-top: @br4;
     background: @white;
     font-size: @small;
     min-height: 40px;
     overflow: hidden;
         }
+
     }
 }
 
-ul#data-lot{
+ul#archive-story{
     margin: 0;
-    padding: 0 0 0 2px;
-	display: block;
-	list-style: none;
+    list-style: none;
     li{
-    border-bottom: 1px solid #B7EF99;
-	padding: 5px 0;
+        border-bottom: @br2;
+        padding-bottom: @margin2;
+        margin-bottom: @margin2;
+        div.media{
+              
+            }
+        div.media-body{
+              img.gal{
+                  width: 150px;
+                  }
+            }
+        }
     }
-}
