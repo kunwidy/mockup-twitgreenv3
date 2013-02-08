@@ -1,38 +1,4 @@
 //USER STYLE
-
-ul#list-user{
-    margin-top: @margin5;
-    li{
-        background: @bg4;
-        border-bottom: 1px solid #000;
-        div.user-pics{
-            img{
-                margin-left: 1px;
-                height: 45px;
-                width: 45px;
-                position: absolute;
-                a{border: 1px solid #ddd;
-                    
-                    }
-                }
-            }
-            div.user-name{
-                a{color: @bg2;
-                    font-weight: bold;
-                }
-                a:hover{color: #fff;}
-                padding: 10px 5px 10px 50px;
-                }
-        }
-        li:hover{
-            background: #407409;
-            color: #fff;
-            }
-    }
-    
-//USER INFO
-//use in user-info.php, sponsor-info.php
-
 #user-info{
     background: @white;
     padding-top: @padding2;
@@ -54,4 +20,34 @@ ul#list-user{
             padding-bottom: @padding2;
             padding: 5px;
         }
+    }
+
+
+ul#list-user{
+    margin-top: @margin5;
+    li{
+        background: @bg4;
+        border-bottom: 1px solid #000;
+        div.user-pics{
+            img{
+                margin-left: 1px;
+               .norm;
+                position: @abs;
+                a{border: @br5;
+                    
+                    }
+                }
+            }
+            div.user-name{
+                a{color: @bg2;
+                    font-weight: @bold;
+                }
+                a:hover{color: @white;}
+                padding: 10px 5px 10px 50px;
+                }
+        }
+        li:hover{
+            background: @bg3;
+            color: @white;
+            }
     }
